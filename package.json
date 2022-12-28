@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "translator",
   "version": "0.0.1",
-  "description": "chrome extension boilerplate",
+  "description": "Translates the selected text",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -17,8 +17,13 @@
   },
   "type": "module",
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.5.0",
