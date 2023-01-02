@@ -1,5 +1,3 @@
-import { useRef } from "react";
-
 import { useDisplayTooltip } from "./hooks";
 import { TranslatorContainer } from "./style";
 import Tooltip from "./Tooltip";
