@@ -1,5 +1,5 @@
 import { MouseEventHandler, useEffect, useState } from "react";
-import deepl_logo from "@assets/img/logo.svg";
+import deepl_logo from "@assets/img/deepl_logo.png";
 import { TSelectedText } from "../hooks";
 import { translate } from "../utils";
 import {

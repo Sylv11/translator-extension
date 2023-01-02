@@ -21,7 +21,7 @@ const manifest: chrome.runtime.ManifestV3 = {
         "assets/js/*.js",
         "assets/css/*.css",
         "icon-128.png",
-        "icon-34.png",
+        "assets/png/*.png",
       ],
       matches: ["*://*/*"],
     },

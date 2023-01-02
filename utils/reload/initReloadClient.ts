@@ -17,6 +17,8 @@ export default function initReloadClient({
 }): WebSocket {
   const socket = new WebSocket(LOCAL_RELOAD_SOCKET_URL);
 
+  console.log(socket);
+
   function sendUpdateCompleteMessage() {
     socket.send(Interpreter.Send({ type: UPDATE_COMPLETE_MESSAGE }));
   }
